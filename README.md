@@ -1,10 +1,10 @@
-# WordCount
+# WordCount2
 
-#### Epicodus C# - Week 1 Independent Project
+#### Epicodus C# - Week 2 Independent Project
 
 #### By Scott Fraser
 
-## Exercise in C# methods and testing
+## Exercise in MVC's with C#
 This is a program that checks how frequently a word appears in a given string. The user should input both the word and a list of words to check. The program will check for full word matches only. This is only the logic for the program, any reference to user interface is hard coded for testing purposes.
 
 | Behavior	| INPUT	| OUTPUT |

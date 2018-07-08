@@ -11,7 +11,9 @@ namespace WordCount2.Controllers
         [HttpGet("/begin")]
         public ActionResult Index()
         {
-            
+            Item clear = new Item();
+            clear.Clear(clear.GetStringOne());
+            clear.Clear(clear.GetStringTwo());
             return View();
         }
 

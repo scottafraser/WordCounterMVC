@@ -1,11 +1,11 @@
 ﻿@{
   Layout = "_Layout";
 }
-<h1>Input a word!</h1>
-<div width="50%">
+<div class="container">
+    <h1>Input a word!</h1>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxEMjNV1_FX7SObJeU0CcP-BdizsLo357bmc9JSihsV8v64MbBuQ">
     <h1>Okay, your sentance was: @Model.GetStringTwo()</h1>
-    <h2>The word, @Model.GetStringOne() matched @Model.GetVarX() time(s).</h2>
+    <h2>The word, "@Model.GetStringOne()" matched @Model.GetVarX() time(s).</h2>
     <a class="btn btn-info" href='/begin'>Try again</a>
 </div>
 

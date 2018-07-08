@@ -1,12 +1,14 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>My Super Awesome Site!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="~/css/styles.css">
-  </head>
-  <body>
-    @RenderBody()
-  </body>
+    <environment names="Development">
+        <link rel="stylesheet" href="~/css/styles.css" />
+    </environment>
+</head>
+<body>
+        @RenderBody()
+</body>
 </html>

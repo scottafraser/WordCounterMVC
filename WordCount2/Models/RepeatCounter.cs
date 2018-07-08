@@ -45,6 +45,13 @@ namespace WordCount2.Models
           
             return _x;
         }
+
+        public string Clear(string form)
+        {
+            form = null;
+            return form;
+        }
+
   
         public bool CorrectInput(string input)
         {
