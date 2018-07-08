@@ -7,7 +7,7 @@ namespace WordCount2.Models
 {
     public class Item
     {
-        //private  static List<Item> _userstring2 = new List<Item>;
+        
         public  string _userString1;
         public string _userString2;
         public  int _x;
@@ -78,7 +78,7 @@ namespace WordCount2.Models
             {
                 foreach (char letter in input)
                 {
-                    if (char.IsDigit(letter) || !input.Contains(" "))
+                    if (char.IsDigit(letter))
                     {
                         return false;
                     }

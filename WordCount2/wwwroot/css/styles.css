@@ -1,5 +1,16 @@
-﻿img {
-    max-height: 200px;
-    max-width: 300px;
+﻿
+
+
+img {
+    max-height: 100px;
+    max-width: 200px;
     text-align: center;
+}
+
+text {
+    font:bold;
+}
+
+body{
+    margin: 300px;
 }
