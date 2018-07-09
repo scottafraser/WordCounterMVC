@@ -22,7 +22,10 @@ This is a program that checks how frequently a word appears in a given string. T
 
 1. Clone the repo
 1. Open Solutions folder in Visual Studio
-1. Run Tests
+1. Run the program on your local host
+1. Click Through the splash page
+1. Enter form Data
+1. Get result!
 
 ## Technologies Used
 
@@ -32,7 +35,7 @@ This is a program that checks how frequently a word appears in a given string. T
 
 ## Links
 
-* https://github.com/scottafraser/WordCounter.git
+* https://github.com/scottafraser/WordCounterMVC.git
 
 ## License
 

@@ -6,8 +6,8 @@ using WordCount2.Models;
 using System;
 
 
-namespace WordCount2.Tests.ControllerTests
-{
+namespace WordCount2.Tests
+{                  
     public class SplashControllerTest
     {
         [TestMethod]
