@@ -22,13 +22,8 @@ namespace WordCount2.Tests.ControllerTests
         [TestMethod]
         public void Input_ReturnsCorrectView_True()
         {
-            //Arrange
             CounterController controller = new CounterController();
-
-            //Act
             ActionResult indexView = controller.InputList();
-
-            //Assert
             Assert.IsInstanceOfType(indexView, typeof(ViewResult));
         }
     
